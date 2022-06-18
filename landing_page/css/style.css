@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.layer{ /* camada sombreada acima*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+.container-center{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+}
+
+main{
+    position: relative;
+    background-image: url(../imgs/tecnologia.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 800px;  
+}
+
+main header{
+    position: relative;
+    z-index: 2;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    float: left;
+    margin-top: 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.icons-social{
+    float: right;
+}
+
+.icons-social a{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+nav.desktop{
+    float: right;
+    margin-top: 20px;
+}
+
+nav.desktop ul{
+    list-style-type: none;
+}
+
+nav.desktop li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+nav.desktop a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.texto-header{
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin: 100px 0;
+}
+
+.texto-header h2{
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+.texto-header h2 > span{
+    color: #5b6bbf;
+}
+
+.texto-header p{
+    color: white;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.texto-header a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #253270;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+
+}
+.publicacao{
+    
+
+}
